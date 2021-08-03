@@ -119,7 +119,6 @@ STATICFILES_DIRS = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-
 # Email settings
 # EMAIL_HOST = 'localhost'
 # EMAIL_PORT = 1025
