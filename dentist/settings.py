@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import django_heroku
 import dj_database_url
@@ -11,12 +12,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['hrmtk-dentist.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['hrmtk-dentist.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
