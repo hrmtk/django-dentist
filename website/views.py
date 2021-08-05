@@ -13,12 +13,12 @@ def contact(request):
 		message = request.POST['message']
 
 		# send an email
-		send_mail(
-			message_subject, # subject
-			message, # message
-			message_email, # from email
-			['da@example.com'], # to email
-		)
+		# send_mail(
+		# 	message_subject, # subject
+		# 	message, # message
+		# 	message_email, # from email
+		# 	['da@example.com'], # to email
+		# )
 
 		return render(request, 'contact.html', {'message_name': message_name})
 
