@@ -3,8 +3,9 @@
 
 
 ## Examples of use
-![screen-gif](https://github.com/hrmtk/django-dentist/blob/master/images/dentist1.gif)
-
+<p align="center">
+  <img src="./dentist1.gif" alt="Dentist site" />
+</p>
 
 ## Live demo
 * [Dentist Website](http://hrmtk-dentist.herokuapp.com/)
