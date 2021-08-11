@@ -8,7 +8,7 @@
 </p>
 
 ## Live demo
-* [Dentist Website](http://hrmtk-dentist.herokuapp.com/)
+* [Dentist Website](https://hrmtk-dentist.herokuapp.com/)
 
 ## General info
 * View list of all dentists
